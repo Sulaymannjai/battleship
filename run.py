@@ -1,3 +1,6 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import random
+
+# Creating the board
+board_size = 10
+board = [['O' for _ in range(board_size)] for _ in range(board_size)]
+
