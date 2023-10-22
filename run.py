@@ -27,7 +27,9 @@ else:
         print("You missed my battleship!")
         board[guess_row][guess_col] = 'X'
 
-        
-
-
 print("Current Board:")
+for row in board:
+    print(" ".join(row))
+
+if _ == 3:
+    print("Game Over. The battleship was located at row", ship_row, "and column", ship_col)
