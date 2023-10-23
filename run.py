@@ -20,7 +20,7 @@ def print_board(board):
 
 def is_valid_input(row, col):
     """
-    Counting if from right to left, down to up! Good Luck.
+    Counting from right to left, down to up! Good Luck.
     """
     return 0 <= row < BOARD_SIZE and 0 <= col < BOARD_SIZE
 

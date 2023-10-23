@@ -3,11 +3,12 @@
 Battleship Game is an exhilarating single-player naval warfare experience, where you take on the role of a cunning commander aiming to sink the computer's battleship. Sharpen your strategic skills and test your luck in this classic game of wits!
 
 Table of Contents
-.Introduction
-.Features
-.How to Play
-.Usage
-.Example Gameplay
+## Introduction
+## Features
+## How to Play
+## Usage
+## Example Gameplay
+## Credit
 
 ## Introduction
 Battleship Game is a Python implementation of the classic Battleship board game. It provides an interactive and engaging platform for players to challenge their logical reasoning and deduction skills. The game is played on a grid-based board, and the objective is to accurately guess and destroy the computer's hidden battleship within a limited number of turns.
@@ -70,4 +71,7 @@ O X O O O
 O O O O O
 O O O O O
 
-You sunk my battleship in 2 turns! Well done!
+You sunk the battleship in 2 turns! Well done!
+
+### Credit
+Credit to my mentor Can, slack community, YouTube and peps.python.org.
