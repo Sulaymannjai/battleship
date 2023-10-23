@@ -8,8 +8,6 @@ Battleship Game is a simple text-based single-player game implemented in Python.
 - [Getting Started](#getting-started)
 - [Customization](#customization)
 - [Example Gameplay](#example-gameplay)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Game Overview
 
@@ -29,3 +27,23 @@ Battleship is a turn-based game where you attempt to guess the coordinates of th
 3. **Game Status:**
     - The game will display the updated board after each guess. Your guesses are marked with 'X'.
     - If you don't guess the battleship's location within the given number of turns, the game will reveal the battleship's position.
+
+
+## Getting Started
+
+Before you begin, ensure you have the following installed on your local machine:
+
+Python: The game is implemented in Python, so you need to have Python installed. You can download it from the official Python website.
+
+## Customization
+
+Here are a few customization options:
+
+Board Size: Adjust the board_size variable to change the dimensions of the game board.
+Number of Turns: Modify the loop limit in the code to change the number of turns allowed to the player.
+Additional Features: Extend the game by adding new features, such as different difficulty levels or a graphical interface.
+Now you're all set to play and customize the Battleship Game on your local machine!
+
+## Example Gameplay
+
+
