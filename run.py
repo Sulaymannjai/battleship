@@ -9,7 +9,7 @@ ship_row = random.randint(0, board_size - 1)
 ship_col = random.randint(0, board_size - 1)
 
 # Receiving your imputs
-for _ in range(1, 5):
+for _ in range(4):
 
     print("Turn", _ + 1)
     guess_row = int(input("Guess Row: "))
@@ -25,7 +25,7 @@ else:
         print("You guessed that one already.")
     else:
         print("You missed my battleship!")
-        board[guess_row][guess_col] = 'x'
+        board[guess_row][guess_col] = 'X'
 
 print("Current Board:")
 for row in board:
@@ -35,4 +35,4 @@ if _ == 3:
     print(
         "Game Over. The battleship was located at row",
         ship_row, "and column", ship_col
-        )
+    )
