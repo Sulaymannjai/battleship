@@ -19,6 +19,9 @@ def print_board(board):
         print(" ".join(row))
 
 def is_valid_input(row, col):
+    """
+    Counting if from right to left, down to up! Good Luck.
+    """
     return 0 <= row < BOARD_SIZE and 0 <= col < BOARD_SIZE
 
 def play_battleship():
