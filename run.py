@@ -19,7 +19,9 @@ for _ in range(4):
         print("Conratutations!! you sunk my battleship")
         break
 else:
-    if guess_row not in range(board_size) or guess_col not in range(board_size):
+    if guess_row not in range(
+        board_size
+    ) or guess_col not in range(board_size):
         print("Oops, that's not even in the ocean.")
     elif board[guess_row][guess_col] == 'X':
         print("You guessed that one already.")
